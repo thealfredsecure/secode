@@ -21,8 +21,7 @@ git clone https://github.com/NoelV11/Secode.git
 
 ## 2. PIP
 
-For many, the simple approach is to first install Python
-(2.7 or something reasonable in the 3.X series).
+For many, the simple approach is to first install Python 3.X series.
 Then use `pip` to install Secode
 (this will normally download the package):
 
@@ -42,7 +41,7 @@ This will work out-of-the-box; it may not be the most recent version.
 
 One way to accomplish this is:
 
-P.S Make sure that you have Python 3.0 or higher
+P.S: Make sure that you have Python 3.0 or higher
 ~~~~
 sudo apt install secode
 ~~~~
