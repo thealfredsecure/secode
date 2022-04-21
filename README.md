@@ -19,16 +19,16 @@ Your Code Report provides you information about -
 - Vulnerability at hand
 - CWE Number associated with it
 - A brief description about the vulnerability
-- Risk level of your code (graded from 1 - 5,on the severity basis)
+- Risk level of your code (graded from 1 - 5, on the severity basis)
 - Secure alternative(s) that you must use which are totally safe from exploits
 
 
 ## Installation Guide
-Refer to the [INSTALL.md](INSTALL.md) file for an in-depth walkthrough on how to install the tool, on your Linux distro
+Refer to the [Installation](INSTALL.md) file for an in-depth walkthrough on how to install the tool, on your Linux distribution
 
 
 # Under the hood
-- More technically, secode uses lexical scanning to find tokens (such as function names) that suggest likely vulnerabilities, estimates their level of risk (e.g., by the text of function calls), and reports the results
+- More technically, Secode uses [Lexical Scanning/ Analysis](https://en.wikipedia.org/wiki/Lexical_analysis) to find tokens (such as function names) that suggest likely vulnerabilities, estimates their level of risk (e.g., by the text of function calls), and reports the results
 - Secode does not use or have access to information about control flow, data flow, or data types
 - Thus, secode will necessarily produce many false positives for vulnerabilities and fail to report many vulnerabilities
 - On the other hand, secode can find vulnerabilities in programs that cannot be built or cannot be linked
@@ -44,7 +44,7 @@ Refer to the [INSTALL.md](INSTALL.md) file for an in-depth walkthrough on how to
 
 
 # Contributions
-We love contributions! For more information on contributing, see the file [CONTRIBUTING.md](CONTRIBUTING.md)
+We love contributions! For more information on contributing, see the file [here](CONTRIBUTING.md)
 
 
 # License
