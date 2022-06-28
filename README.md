@@ -1,4 +1,5 @@
 # Secode
+![Secode icon](https://user-images.githubusercontent.com/67218125/176188490-a7afe2ae-db7d-4d60-82af-dc7107e4af23.png)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAliasgarSabunwala%2FSecode%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=TOOL+VIEWS&edge_flat=false)](https://hits.seeyoufarm.com)
 
