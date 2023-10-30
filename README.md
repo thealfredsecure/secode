@@ -23,11 +23,11 @@ Your Code Report provides you information about -
 
 
 ## Installation Guide
-Refer to the [Installation](INSTALL.md) file for an in-depth walkthrough on how to install the tool, on your Linux distribution
+Refer to the [installation](INSTALL.md) file for an in-depth walkthrough on how to install the tool, on your Linux distribution
 
 
 # Under the hood
-- More technically, Secode uses [Lexical scanning/analysis](https://en.wikipedia.org/wiki/Lexical_analysis) to find tokens (such as function names) that suggest likely vulnerabilities, estimates their level of risk (e.g., by the text of function calls), and reports the results
+- More technically, Secode uses [lexical scanning/analysis](https://en.wikipedia.org/wiki/Lexical_analysis) to find tokens (such as function names) that suggest likely vulnerabilities, estimates their level of risk (e.g., by the text of function calls), and reports the results
 - Secode does not use or have access to information about control flow, data flow, or data types
 - Thus, secode will necessarily produce many false positives for vulnerabilities and fail to report many vulnerabilities
 - On the other hand, secode can find vulnerabilities in programs that cannot be built or cannot be linked
