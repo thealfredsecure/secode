@@ -1,16 +1,14 @@
 # Secode
-![Secode icon](https://user-images.githubusercontent.com/67218125/176188490-a7afe2ae-db7d-4d60-82af-dc7107e4af23.png)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAliasgarSabunwala%2FSecode%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=TOOL+VIEWS&edge_flat=false)](https://hits.seeyoufarm.com)
 
-- Static Code Analyzer, that analyzes your code, to find anomalies, currently only limited to "Insecure Functions" in your code
-- But, it doesn't stop there - as a precautionary measure, it provides you with safer function as an alternative - like instead of using `strcpy()` which is vulnerable to Buffer Overflow, it provides you with safer function as an alternative like `lstrcy()`, which is not vulnerable to Buffer Overflow, that you can implement on your code, to make it secure
+- Static Code Analyzer, analyzes your code, to find anomalies. Currently only limited to "Insecure Functions" in your code!
+- It doesn't stop there - as a precautionary measure, it provides you with safer function as an alternative - like instead of using `strcpy()` which is vulnerable to Buffer Overflow, it provides you with safer function as an alternative like `lstrcy()`, which is not vulnerable to Buffer Overflow, that you can implement on your code, to make it secure
 
 # How is it different?
 - Secode is powered by a **stringent and comprehensive ruleset**, that can detect vulnerabilities pretty easily, which will be updated regularly, 
 as more vulnerabilities and exploits emerge
-- Secode enforces the concept of "**Secure Coding" and "Secure Software Development Life Cycle (Secure SDLC)"** which is now gaining much needed traction during the 
-development process of any software
+- Secode enforces the concept of "**Secure Coding" and "Secure Software Development Life Cycle (Secure SDLC)"** which is now gaining much needed traction during the development process of any software
 
 
 # What does a Secode Scan On The Code You Provide?
