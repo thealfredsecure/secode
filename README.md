@@ -11,7 +11,7 @@ as more vulnerabilities and exploits emerge
 - Secode enforces the concept of "**Secure Coding" and "Secure Software Development Life Cycle (Secure SDLC)"** which is now gaining much needed traction during the development process of any software
 
 
-# What does a Secode Scan On The Code You Provide?
+# What does it scan on the code you provide?
 Your Code Report provides you information about -
 
 - Hit count of vulnerable functions (total count)
@@ -22,7 +22,7 @@ Your Code Report provides you information about -
 - Secure alternative(s) that you must use which are totally safe from exploits
 
 
-## Installation Guide
+## Installation guide
 Refer to the [installation](INSTALL.md) file for an in-depth walkthrough on how to install the tool, on your Linux distribution
 
 
@@ -31,7 +31,7 @@ Refer to the [installation](INSTALL.md) file for an in-depth walkthrough on how 
 - Secode does not use or have access to information about control flow, data flow, or data types
 - Thus, secode will necessarily produce many false positives for vulnerabilities and fail to report many vulnerabilities
 - On the other hand, secode can find vulnerabilities in programs that cannot be built or cannot be linked
-- Secode also doesn't get as confused by macro definitions and other oddities that more sophisticated tools have trouble with
+- Secode also doesn't get as confused by macro definitions and other oddities that more sophisticated tools have trouble with.
 
 
 ## Roadmap
@@ -39,12 +39,12 @@ Refer to the [installation](INSTALL.md) file for an in-depth walkthrough on how 
 - Extending Scanning functionalities within the tool to: 
     1. Web Technologies like HTML, CSS, Js and PHP
     2. App Development languages like Java and Kotlin
-- GitHub Actions workflows Integration
+- GitHub Actions workflows Integration.
 
 
 # Contributions
-We love contributions! For more information on contributing, see the file [here](CONTRIBUTING.md)
+We love contributions! For more information on contributing, please see the file [here](CONTRIBUTING.md).
 
 
 # License
-Secode is released under the GNU GPL license version 2 or later (GPL-2.0+). See the [LICENSE](LICENSE) file for license information.
+Secode is released under the GNU GPL license version 2 or later (GPL-2.0+). Please see [this](LICENSE) file for license information.
